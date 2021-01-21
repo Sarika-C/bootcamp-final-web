@@ -1,5 +1,23 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
-import App from './App'
+import {
+  Title,
+  PageContainer,
+} from './styles'
 
-ReactDOM.render(<App />, document.getElementById('root'))
+const Tried = () => {
+  return (
+    <>
+      <PageContainer>
+        <Title>Recipes You've Tried</Title>
+      </PageContainer>
+    </>
+  )
+}
+
+// make list now
+// fill it with filler data
+
+// list item and table component
+// title, date added
+
+export default Tried
